@@ -1,0 +1,162 @@
+* {
+  background-color: lightskyblue;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+
+.tbody {
+  border: 1px solid black;
+  background-color: yellow;
+  color: rebeccapurple;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: inherit;
+}
+
+h2 {
+  font-style: unset;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darkslategrey;
+  color: red;
+}
+
+.child {
+  border: 1px solid black;
+  background-color: green;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+label {
+  background-color: yellow;
+  color: gray;
+  font-size: large;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.container {
+  margin-left: 50%;
+}
+
+input {
+  background-color: white;
+}
+
+.form-group {
+  background-color: yellow;
+  margin: 25px;
+}
+
+.link, .heading {
+  background-color: yellow; 
+}
+
+#home {
+  background-image: url("https://cdn.pixabay.com/photo/2016/08/26/15/14/music-notes-1622424_960_720.jpg");
+  height: 100vh;
+  width: 1000vh;
+}
+
+
+.container {
+    background-image: url("https://cdn.pixabay.com/photo/2016/08/26/15/14/music-notes-1622424_960_720.jpg");
+    height: 100vh;
+    width: 1200vh;
+}
+
+.form {
+  background-image: url("https://cdn.pixabay.com/photo/2016/08/26/15/14/music-notes-1622424_960_720.jpg");
+  height: 100vh;
+}
+
+.col-sm-11, .col-sm-1 {
+  background-color: yellow;
+  color: green;
+}
+
+h3, .table {
+  background-color: yellow;
+}
+
+.error {
+  background-color: red;
+  color: black;
+}
+
+.head {
+  background-color: blue;
+  color: orange;
+}
+
+#link {
+  font-size: larger;
+  background-color: yellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.row {
+  background-color: yellow;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 50%;
+  margin-left: 325px;
+  position: absolute;
+}
+
+a {
+  background-color: yellow;
+}
